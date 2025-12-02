@@ -1,0 +1,58 @@
+2025-12-03 02:08:35,782 INFO register ok ip=127.0.0.1 username=demo_user4
+2025-12-03 02:08:36,044 INFO login ok ip=127.0.0.1 username=demo_user4
+2025-12-03 02:08:36,065 INFO logout ok ip=127.0.0.1
+2025-12-03 02:18:23,445 INFO register ok ip=127.0.0.1 username=zlx
+2025-12-03 02:18:37,918 INFO login ok ip=127.0.0.1 username=zlx
+2025-12-03 02:25:41,732 INFO register ok ip=127.0.0.1 username=plan_user
+2025-12-03 02:25:41,986 INFO login ok ip=127.0.0.1 username=plan_user
+2025-12-03 02:25:42,003 INFO submit ok ip=127.0.0.1 uid=3 gid=1 avg=420 err=0.2 rounds=5
+2025-12-03 02:25:42,051 INFO logout ok ip=127.0.0.1
+2025-12-03 02:26:56,057 INFO login ok ip=127.0.0.1 username=zlx
+2025-12-03 02:27:18,585 INFO submit ok ip=127.0.0.1 uid=2 gid=2 avg=1473 err=0.8 rounds=5
+2025-12-03 02:27:56,032 INFO submit ok ip=127.0.0.1 uid=2 gid=3 avg=1347 err=0.2 rounds=5
+2025-12-03 02:28:17,389 INFO logout ok ip=127.0.0.1
+2025-12-03 02:28:20,286 INFO login ok ip=127.0.0.1 username=zlx
+2025-12-03 02:40:47,818 INFO submit ok ip=127.0.0.1 uid=2 gid=4 avg=0 err=1.0 rounds=5
+2025-12-03 02:43:33,481 INFO submit ok ip=127.0.0.1 uid=2 gid=5 avg=479 err=0.8 rounds=5
+2025-12-03 02:51:08,288 INFO logout ok ip=127.0.0.1
+2025-12-03 02:51:09,886 INFO logout ok ip=127.0.0.1
+2025-12-03 02:51:10,702 INFO logout ok ip=127.0.0.1
+2025-12-03 02:51:18,187 INFO login ok ip=127.0.0.1 username=zlx
+2025-12-03 02:51:40,824 INFO submit ok ip=127.0.0.1 uid=2 gid=6 avg=0 err=1.0 rounds=5
+2025-12-03 03:03:20,373 INFO submit ok ip=127.0.0.1 uid=2 gid=7 avg=1111 err=0.4 rounds=5
+2025-12-03 03:12:18,615 INFO submit ok ip=127.0.0.1 uid=2 gid=8 avg=0 err=1.0 rounds=5
+2025-12-03 03:15:38,391 INFO logout ok ip=127.0.0.1
+2025-12-03 03:15:48,045 INFO register ok ip=127.0.0.1 username=gjf
+2025-12-03 03:16:35,530 INFO login ok ip=127.0.0.1 username=gjf
+2025-12-03 03:18:23,813 INFO submit ok ip=127.0.0.1 uid=4 gid=9 avg=2123 err=0.4 rounds=5
+2025-12-03 03:18:42,556 INFO submit ok ip=127.0.0.1 uid=4 gid=10 avg=752 err=0.2 rounds=5
+2025-12-03 03:19:07,056 INFO submit ok ip=127.0.0.1 uid=4 gid=11 avg=624 err=0.0 rounds=5
+2025-12-03 03:24:26,435 INFO submit ok ip=127.0.0.1 uid=4 gid=12 avg=268 err=0.6 rounds=5
+2025-12-03 03:27:54,792 INFO submit ok ip=127.0.0.1 uid=4 gid=13 avg=630 err=0.6 rounds=5
+2025-12-03 03:31:58,041 INFO submit ok ip=127.0.0.1 uid=4 gid=14 avg=49 err=0.8 rounds=5
+2025-12-03 03:34:40,431 INFO logout ok ip=127.0.0.1
+2025-12-03 03:34:57,439 INFO register ok ip=127.0.0.1 username=gjff
+2025-12-03 03:35:13,248 INFO login ok ip=127.0.0.1 username=gjff
+2025-12-03 03:35:42,982 INFO submit ok ip=127.0.0.1 uid=5 gid=15 avg=656 err=0.2 rounds=5
+2025-12-03 03:36:08,194 INFO submit ok ip=127.0.0.1 uid=5 gid=16 avg=453 err=0.0 rounds=5
+2025-12-03 03:36:49,337 INFO submit ok ip=127.0.0.1 uid=5 gid=17 avg=1955 err=0.4 rounds=5
+2025-12-03 03:37:07,457 INFO submit ok ip=127.0.0.1 uid=5 gid=18 avg=527 err=0.2 rounds=5
+2025-12-03 03:38:08,358 INFO submit ok ip=127.0.0.1 uid=5 gid=19 avg=422 err=0.4 rounds=5
+2025-12-03 03:38:37,502 INFO submit ok ip=127.0.0.1 uid=5 gid=20 avg=537 err=0.6 rounds=5
+2025-12-03 03:38:53,201 INFO submit ok ip=127.0.0.1 uid=5 gid=21 avg=503 err=0.6 rounds=5
+2025-12-03 03:39:13,252 INFO submit ok ip=127.0.0.1 uid=5 gid=22 avg=608 err=0.2 rounds=5
+2025-12-03 03:39:41,046 INFO logout ok ip=127.0.0.1
+2025-12-03 03:39:46,627 INFO login ok ip=127.0.0.1 username=zlx
+2025-12-03 03:40:05,938 INFO submit ok ip=127.0.0.1 uid=2 gid=23 avg=939 err=0.2 rounds=5
+2025-12-03 03:40:28,243 INFO submit ok ip=127.0.0.1 uid=2 gid=24 avg=782 err=0.2 rounds=5
+2025-12-03 03:40:50,544 INFO submit ok ip=127.0.0.1 uid=2 gid=25 avg=998 err=0.8 rounds=5
+2025-12-03 03:41:40,954 INFO submit ok ip=127.0.0.1 uid=2 gid=26 avg=0 err=1.0 rounds=5
+2025-12-03 03:47:42,728 INFO submit ok ip=127.0.0.1 uid=2 gid=27 avg=2506 err=0.8 rounds=5
+2025-12-03 03:51:36,593 INFO submit ok ip=127.0.0.1 uid=2 gid=28 avg=876 err=0.4 rounds=5
+2025-12-03 03:57:56,868 INFO submit ok ip=127.0.0.1 uid=2 gid=29 avg=514 err=0.8 rounds=5
+2025-12-03 04:04:03,655 INFO submit ok ip=127.0.0.1 uid=2 gid=30 avg=3292 err=0.6 rounds=5
+2025-12-03 04:05:37,037 INFO submit ok ip=127.0.0.1 uid=2 gid=31 avg=418 err=0.4 rounds=5
+2025-12-03 04:13:55,739 INFO submit ok ip=127.0.0.1 uid=2 gid=32 avg=493 err=0.6 rounds=5
+2025-12-03 04:25:21,593 INFO logout ok ip=127.0.0.1
+2025-12-03 04:25:31,775 INFO login ok ip=127.0.0.1 username=gjff
+2025-12-03 04:25:53,220 INFO submit ok ip=127.0.0.1 uid=5 gid=33 avg=616 err=0.0 rounds=5

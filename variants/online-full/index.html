@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stroop Test 中文版</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="layout">
+    <div class="user-badge" id="userBadge">未登录</div>
+    <div class="topbar">
+      <div class="topbar__group">
+        <button class="btn btn--ghost" id="skipBtn">跳过等待：关闭</button>
+        <button class="btn btn--ghost" id="langBtn">中文</button>
+        <button class="btn btn--ghost" id="themeBtn">夜间模式：关闭</button>
+        <button class="btn btn--ghost" id="rankBtn">历史最快排名</button>
+        <button class="btn btn--ghost" id="historyBtn">查看个人历史记录</button>
+        <button class="btn btn--ghost" id="logoutBtn">登出 / 切换账户</button>
+      </div>
+    </div>
+    <div class="layout__container" id="appContainer">
+      <div class="auth" id="auth">
+        <div class="auth__card">
+          <h2 class="auth__title">登录 / 注册</h2>
+          <div class="auth__tabs">
+            <button class="btn btn--ghost" id="tabLogin">登录</button>
+            <button class="btn btn--ghost" id="tabRegister">注册</button>
+          </div>
+          <form class="auth__form" id="loginForm">
+            <input class="auth__input" id="loginUsername" placeholder="账号" />
+            <input class="auth__input" id="loginPassword" type="password" placeholder="密码" />
+            <button class="btn btn--primary" id="loginSubmit" type="submit">登录</button>
+            <div class="auth__msg" id="loginMsg"></div>
+          </form>
+          <form class="auth__form is-hidden" id="registerForm">
+            <input class="auth__input" id="regUsername" placeholder="账号" />
+            <input class="auth__input" id="regPassword" type="password" placeholder="密码" />
+            <button class="btn btn--primary" id="regSubmit" type="submit">注册</button>
+            <div class="auth__msg" id="regMsg"></div>
+          </form>
+        </div>
+      </div>
+      <div class="test-card" id="testCard">
+        <div class="test-card__header">
+          <h1 class="test-card__title">Stroop Test</h1>
+        </div>
+        <div class="test-card__content">
+          <div class="color-word" id="colorWord">请点击开始</div>
+        </div>
+        <div class="test-card__status" id="statusText">待开始</div>
+      </div>
+      <div class="test-card__restart">
+        <button class="btn btn--ghost is-hidden" id="restartBtn">重新开始</button>
+      </div>
+      <div class="guide">
+        <p class="guide__subtitle" id="guideSubtitle">按空格开始或者进入下一题</p>
+        <div class="kbd-hints">
+          <span class="kbd-hints__item kbd-hints__item--yellow">D=黄</span>
+          <span class="kbd-hints__item kbd-hints__item--red">F=红</span>
+          <span class="kbd-hints__item kbd-hints__item--blue">J=蓝</span>
+          <span class="kbd-hints__item kbd-hints__item--green">K=绿</span>
+        </div>
+      </div>
+      <div class="stats" id="stats">
+        <div class="stats__summary" id="statsSummary"></div>
+        <ul class="stats__list" id="statsList"></ul>
+        <div class="stats__global" id="statsGlobal"></div>
+        <div class="bar-chart" id="statsBars"></div>
+        <div class="stats__rankings" id="statsRankings"></div>
+      </div>
+      <div class="modal is-hidden" id="rankingsModal">
+        <div class="modal__content">
+          <div class="modal__header">
+            <span class="modal__title">历史最快排名</span>
+            <button class="btn btn--ghost" id="rankingsClose">关闭</button>
+          </div>
+          <div class="modal__body">
+            <ul class="stats__list" id="rankingsList"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="assets/js/app.js?v=20251203"></script>
+  </body>
+</html>
+

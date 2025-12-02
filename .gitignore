@@ -1,0 +1,15 @@
+# Python virtual env
+venv/
+
+# Environment files
+.env
+
+# Node/yarn (if any)
+node_modules/
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+

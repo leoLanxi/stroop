@@ -70,6 +70,11 @@ function setup() {
         e.preventDefault();
         resetView();
         test.start();
+      } else if (st === "completed") {
+        e.preventDefault();
+        setRestartVisible(false);
+        resetView();
+        test.start();
       } else if (!autoNextEnabled && st === "answered") {
         e.preventDefault();
         test.proceedNext();
@@ -128,4 +133,3 @@ function setup() {
 }
 
 document.addEventListener("DOMContentLoaded", setup);
-

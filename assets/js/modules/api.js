@@ -7,3 +7,4 @@ export async function get(path) {
 export async function post(path, data) {
   return { ok: false, error: 'OFFLINE' };
 }
+

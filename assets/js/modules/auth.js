@@ -15,10 +15,8 @@ function showApp() {
 }
 
 export async function checkAuthOnLoad() {
-  // OFFLINE: 显示游戏并设置游客用户名
   setUserName('游客')
   showApp()
-  // 隐藏与后端相关按钮
   const hideIds = ['logoutBtn','historyBtn','rankBtn']
   hideIds.forEach(id => { const el = document.getElementById(id); if (el) el.classList.add('is-hidden') })
 }
@@ -40,7 +38,6 @@ export function bindAuth() {
     e.preventDefault()
     const username = document.getElementById('loginUsername').value.trim()
     const password = document.getElementById('loginPassword').value
-    // OFFLINE: 直接显示游戏并设定用户名
     setUserName(username || '游客')
     loginMsg.textContent = '登录成功（离线模式）'
     showApp()
@@ -49,16 +46,15 @@ export function bindAuth() {
     e.preventDefault()
     const username = document.getElementById('regUsername').value.trim()
     const password = document.getElementById('regPassword').value
-    // OFFLINE: 直接提示并切换到登录
     regMsg.textContent = '注册成功（离线模式），请登录'
     loginForm.classList.remove('is-hidden'); registerForm.classList.add('is-hidden')
   })
 }
 
 export async function logoutAndShowAuth() {
-  // OFFLINE: 切回游客并保持游戏界面
   setUserName('游客')
   showApp()
   const loginMsg = document.getElementById('loginMsg')
   if (loginMsg) loginMsg.textContent = '已切换为游客（离线模式）'
 }
+

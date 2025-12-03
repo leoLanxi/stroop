@@ -40,7 +40,6 @@ function setup() {
       if (s) s.scrollIntoView({ behavior: 'smooth', block: 'start' });
       applyLanguage(currentLang);
       setRestartVisible(true);
-      // OFFLINE: 不提交后端，不拉取全局统计
     },
   });
 
@@ -102,7 +101,6 @@ function setup() {
     currentLang = currentLang === "zh" ? "en" : "zh";
     applyLanguage(currentLang);
     setSkipLabel(autoNextEnabled);
-    // update current stimulus label if active
     const st = test.getStatus();
     if (st === "active" && test.current) {
       const label = currentLang === "zh" ? test.current.wordCn : test.current.wordEn;
@@ -114,7 +112,9 @@ function setup() {
     }
   });
 
-  // OFFLINE: 历史记录按钮在离线模式下已隐藏
+  document.getElementById('rankBtn').addEventListener('click', () => {
+    fetchAndRenderRankings();
+  });
 
   document.getElementById('logoutBtn').addEventListener('click', async () => {
     await logoutAndShowAuth();
@@ -122,6 +122,3 @@ function setup() {
 }
 
 document.addEventListener("DOMContentLoaded", setup);
-  document.getElementById('rankBtn').addEventListener('click', () => {
-    fetchAndRenderRankings();
-  });
